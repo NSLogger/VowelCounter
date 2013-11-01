@@ -10,6 +10,7 @@
 		7D924E031823BF2B00EA3250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D924E021823BF2B00EA3250 /* Foundation.framework */; };
 		7D924E061823BF2B00EA3250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D924E051823BF2B00EA3250 /* main.m */; };
 		7D924E0A1823BF2B00EA3250 /* VowelCounter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7D924E091823BF2B00EA3250 /* VowelCounter.1 */; };
+		7D924E121823BF4600EA3250 /* NSString+VowelCounting.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D924E111823BF4600EA3250 /* NSString+VowelCounting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		7D924E051823BF2B00EA3250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D924E081823BF2B00EA3250 /* VowelCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VowelCounter-Prefix.pch"; sourceTree = "<group>"; };
 		7D924E091823BF2B00EA3250 /* VowelCounter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = VowelCounter.1; sourceTree = "<group>"; };
+		7D924E101823BF4600EA3250 /* NSString+VowelCounting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VowelCounting.h"; sourceTree = "<group>"; };
+		7D924E111823BF4600EA3250 /* NSString+VowelCounting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VowelCounting.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		7D924DF61823BF2B00EA3250 = {
 			isa = PBXGroup;
 			children = (
+				7D924E101823BF4600EA3250 /* NSString+VowelCounting.h */,
+				7D924E111823BF4600EA3250 /* NSString+VowelCounting.m */,
 				7D924E041823BF2B00EA3250 /* VowelCounter */,
 				7D924E011823BF2B00EA3250 /* Frameworks */,
 				7D924E001823BF2B00EA3250 /* Products */,
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D924E121823BF4600EA3250 /* NSString+VowelCounting.m in Sources */,
 				7D924E061823BF2B00EA3250 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
